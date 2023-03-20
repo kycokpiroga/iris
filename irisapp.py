@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import pycaret
 from pycaret.regression import load_model, predict_model
 st.set_page_config(page_title="Iris Classification App")
 @st.cache_data()
